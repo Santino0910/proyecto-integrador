@@ -40,11 +40,37 @@ footer {
     padding: 40px;
 }
 
+/*
+*/
+
+
+.img-act {
+    background-image: url(../imagenes/actividades-sm.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.carousel-item img {
+    max-height: 500px; 
+    object-fit: contain; 
+  }
+
+  .carousel-control-prev,
+.carousel-control-next {
+  background-color: black !important; 
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  fill: black !important; 
+}
 
 @media screen and (min-width:768px) {
-    /* body::before  {
-        content: 'md ≥768px';
-    } */
+
     .imagen-2 {
         background-image: url(../imagenes/home-md.jpg);
     }    
