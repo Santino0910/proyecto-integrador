@@ -11,7 +11,7 @@
 }
 
 .imagen  {
-    background-image: url(/imagenes/home-sm.jpg);
+    background-image: url(./imagenes/home-sm.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
