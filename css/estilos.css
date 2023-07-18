@@ -1,0 +1,62 @@
+.bg {
+    background-color: #28a745;
+}
+
+.bg-footer {
+    background: white;
+}
+.bg-celeste{
+    background-color: #3092fc;
+    color: white;
+}
+
+.imagen  {
+    background-image: url(/imagenes/home-sm.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.cont{
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    text-align: center;
+    border: none;
+    width: 300px;
+}
+
+.texto {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer {
+    background: #3c4146;
+    color: white;
+    padding: 40px;
+}
+
+
+@media screen and (min-width:768px) {
+    /* body::before  {
+        content: 'md ≥768px';
+    } */
+    .imagen-2 {
+        background-image: url(/imagenes/home-md.jpg);
+    }    
+    .cont {
+        width: 350px;
+    }
+}
+@media screen and (min-width:992px) {
+    .imagen-2{
+        background-image: url(/imagenes/home-lg.jpg);
+    }
+    .cont {
+        width: 450px;
+    }
+}
