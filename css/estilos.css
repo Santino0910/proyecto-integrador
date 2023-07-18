@@ -11,7 +11,7 @@
 }
 
 .imagen  {
-    background-image: url(./imagenes/home-sm.jpg);
+    background-image: url(../imagenes/home-sm.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@ footer {
         content: 'md ≥768px';
     } */
     .imagen-2 {
-        background-image: url(./imagenes/home-md.jpg);
+        background-image: url(../imagenes/home-md.jpg);
     }    
     .cont {
         width: 350px;
@@ -54,7 +54,7 @@ footer {
 }
 @media screen and (min-width:992px) {
     .imagen-2{
-        background-image: url(./imagenes/home-lg.jpg);
+        background-image: url(../imagenes/home-lg.jpg);
     }
     .cont {
         width: 450px;
