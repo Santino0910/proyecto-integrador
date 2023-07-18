@@ -69,6 +69,15 @@ footer {
   fill: black !important; 
 }
 
+.img-proyecto {
+    background-image: url(../imagenes/proyecto-header-sm.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
 @media screen and (min-width:768px) {
 
     .imagen-2 {
@@ -77,6 +86,9 @@ footer {
     .cont {
         width: 350px;
     }
+    .img-proyecto {
+        background-image: url(../imagenes/proyecto-header-md.jpg);
+    }
 }
 @media screen and (min-width:992px) {
     .imagen-2{
@@ -84,5 +96,9 @@ footer {
     }
     .cont {
         width: 450px;
+    }
+
+    .img-proyecto {
+        background-image: url(../imagenes/proyecto-header-sm.jpg);
     }
 }
